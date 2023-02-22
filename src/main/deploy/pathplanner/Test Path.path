@@ -1,0 +1,119 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 7.5,
+        "y": 4.0
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.9154157657951325,
+        "y": 4.0
+      },
+      "holonomicAngle": 0.0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "TestPathBegin"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 6.5,
+        "y": 3.0
+      },
+      "prevControl": {
+        "x": 6.5,
+        "y": 3.5965739180354293
+      },
+      "nextControl": {
+        "x": 6.5,
+        "y": 2.3656315164104806
+      },
+      "holonomicAngle": 0.0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 7.5,
+        "y": 2.0
+      },
+      "prevControl": {
+        "x": 6.948237897685512,
+        "y": 2.0
+      },
+      "nextControl": {
+        "x": 8.051762102314488,
+        "y": 2.0
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 8.5,
+        "y": 3.0
+      },
+      "prevControl": {
+        "x": 8.5,
+        "y": 2.4160635415440614
+      },
+      "nextControl": null,
+      "holonomicAngle": 90.0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "TestPathEnd"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    }
+  ],
+  "maxVelocity": null,
+  "maxAcceleration": null,
+  "isReversed": false,
+  "markers": [
+    {
+      "position": 1.0,
+      "names": [
+        "TestPathEvent1"
+      ]
+    },
+    {
+      "position": 2.0,
+      "names": [
+        "TestPathEvent2"
+      ]
+    }
+  ]
+}
