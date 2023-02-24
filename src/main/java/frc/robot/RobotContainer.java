@@ -77,7 +77,7 @@ public class RobotContainer {
 
     //    telescopeSubsystem.setDefaultCommand(new TelescopeCommand(telescopeSubsystem, oi));
         wristSubsystem.setDefaultCommand(new WristCommand(wristSubsystem, oi));
-        swerveDriveSubsystem.setDefaultCommand(new DriveCommand(swerveDriveSubsystem, oi, navx));
+        //swerveDriveSubsystem.setDefaultCommand(new DriveCommand(swerveDriveSubsystem, oi, navx));
 
       oi.getButton(0, Constants.Buttons.Y_BUTTON).onTrue(new RunCommand(()->{
         elevatorSubsystem.setPosition(.1);
